@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/manual_add"
+        android:layout_below="@id/spinner2"
+        android:layout_width="match_parent"
+        android:text="http://cat302.hlslive.zhanqi.yfcdn.net/zqlive/35180_KUDhx/p2ponline.m3u8"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/manual_add"
+        android:onClick="PlayManualUrl"
+        android:text="播放"/>
+    <SurfaceView
+        android:id="@+id/surface_view"
+        android:layout_below="@id/play"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    <GridView
+        android:id="@+id/gview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/surface_view"
+        android:columnWidth="150dp"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth" >
+    </GridView>
+</RelativeLayout>

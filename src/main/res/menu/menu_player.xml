@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".menu_app">
+    <item
+        android:id="@+id/action_decode_mode"
+        android:title="解码方式"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_change_ratio"
+        android:title="切换比例"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_show_info"
+        android:title="show_info"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_show_log"
+        android:title="show_log"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_replay"
+        android:title="重播"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_next"
+        android:title="下一个"
+        app:showAsAction="ifRoom" />
+</menu>
