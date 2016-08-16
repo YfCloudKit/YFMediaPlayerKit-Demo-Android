@@ -8,7 +8,7 @@
 
 YfPlayerKit是云帆加速推出的Android平台用于播放视频的软件开发工具包（SDK)，为您提供简单、便捷的开发接口，助您在基于 Android 4.1 及以上版本的移动设备上实现视频播放功能。
 
-- [YfPlayerKit SDK下载地址](http://note.youdao.com/)
+- [YfPlayerKit SDK下载地址](https://github.com/yfcloudStreamEngine/YfPlayerKit_Android_DEMO)
 
 ### 功能特点
 ---
@@ -154,9 +154,6 @@ yfMediaPlayer.start();
 ### 反馈和建议
 ---
 主页：云帆加速
- 
-论坛：[www.bbs.yfcloud.com](www.bbs.yfcloud.com)
-
 
 
 
