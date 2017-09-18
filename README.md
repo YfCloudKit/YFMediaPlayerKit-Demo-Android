@@ -45,7 +45,7 @@ flv, mp4, ts, rtmp, http, hls等协议的直播和点播
 获取SDK使用许可的Token,在app启动的时候调用全局静态鉴权方法。
 
 ```
-    Authentication.AuthCallBack authCallBack = new Authentication.AuthCallBack() {
+private YfAuthentication.AuthCallBack authCallBack = new YfAuthentication.AuthCallBack() {
         @Override
         public void onAuthenticateSuccess() {
             Log.d(TAG, "鉴权成功~！");
@@ -56,7 +56,7 @@ flv, mp4, ts, rtmp, http, hls等协议的直播和点播
             Log.d(TAG, "鉴权失败啦：" + errorCode);
         }
     };
-Authentication.Authenticate(TOKEN, authCallBack);
+YfAuthentication.getInstance().authenticate(ACCESS_KEY,TOKEN, authCallBack);
 ```
 为了防止在鉴权的时候因为网络异常而鉴权失败，可以在恢复网络的时候确认一下是否鉴权成功，如果没有则再次发起鉴权。
     
@@ -149,7 +149,7 @@ yfMediaPlayer.start();
 
 ### 接口说明
 ---
-参考DOC目录里的YfPlayerKit帮助文档
+[Android端播放器API文档](http://doc.yfcloud.com/index.php?s=/5&page_id=82 "播放器API文档")
 
 ### 反馈和建议
 ---

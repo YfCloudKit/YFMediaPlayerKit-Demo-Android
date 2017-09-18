@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/background_light"/>
+
+    <EditText
+        android:id="@+id/manual_add"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/spinner2"/>
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/manual_add"
+        android:onClick="PlayManualUrl"
+        android:text="播放"/>
+
+    <EditText
+        android:id="@+id/second_manual_add"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/play"/>
+
+    <Button
+        android:id="@+id/play2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/second_manual_add"
+        android:onClick="PlaySecondManualUrl"
+        android:text="播放"/>
+
+    <LinearLayout
+        android:id="@+id/options"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/play2"
+        android:padding="8dp"
+        android:weightSum="4">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Switch
+                android:id="@+id/http_dns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:checked="false"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/http_dns"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="28dp"
+                android:gravity="center"
+                android:text="HTTP_DNS"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="gone">
+
+            <Switch
+                android:id="@+id/openP2P"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:checked="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/openP2P"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="28dp"
+                android:text="P2P代理"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Switch
+                android:id="@+id/udp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:checked="false"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/udp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="28dp"
+                android:text="UDP"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Switch
+                android:id="@+id/render_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:checked="true"/>
+
+            <TextView
+                android:id="@+id/render_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/render_view"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="28dp"
+                android:text="TextureView"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/options"
+        android:columnWidth="150dp"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth">
+    </GridView>
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="version:4.5.7"
+        android:padding="4dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/background_light"/>
+</RelativeLayout>

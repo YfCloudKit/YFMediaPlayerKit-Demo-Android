@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\yunfangit\\YfPlayerKit_Android_DEMO\\YfCloudPlayer\\build\\intermediates\\res\\merged\\debug\\menu\\menu_app.xml",
+        "source": "D:\\yunfangit\\YfPlayerKit_Android_DEMO\\YfCloudPlayer\\src\\main\\res\\menu\\menu_app.xml"
+    },
+    {
+        "merged": "D:\\yunfangit\\YfPlayerKit_Android_DEMO\\YfCloudPlayer\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "D:\\yunfangit\\YfPlayerKit_Android_DEMO\\YfCloudPlayer\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "D:\\yunfangit\\YfPlayerKit_Android_DEMO\\YfCloudPlayer\\build\\intermediates\\res\\merged\\debug\\menu\\menu_player.xml",
+        "source": "D:\\yunfangit\\YfPlayerKit_Android_DEMO\\YfCloudPlayer\\src\\main\\res\\menu\\menu_player.xml"
+    }
+]

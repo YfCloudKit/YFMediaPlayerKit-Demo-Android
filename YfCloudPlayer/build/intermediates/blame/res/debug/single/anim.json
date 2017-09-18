@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "D:\\yunfangit\\YfPlayerKit_Android_DEMO\\YfCloudPlayer\\build\\intermediates\\res\\merged\\debug\\anim\\in_from_right.xml",
+        "source": "D:\\yunfangit\\YfPlayerKit_Android_DEMO\\YfCloudPlayer\\src\\main\\res\\anim\\in_from_right.xml"
+    },
+    {
+        "merged": "D:\\yunfangit\\YfPlayerKit_Android_DEMO\\YfCloudPlayer\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\yunfan\\.android\\build-cache\\d8d264708a8411f61c2bf0af4d9488d2cb0e48f5\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\yunfangit\\YfPlayerKit_Android_DEMO\\YfCloudPlayer\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\yunfan\\.android\\build-cache\\10cc75ad71c30885b8e9bba8db384c6e2870bb89\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "D:\\yunfangit\\YfPlayerKit_Android_DEMO\\YfCloudPlayer\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\yunfan\\.android\\build-cache\\10cc75ad71c30885b8e9bba8db384c6e2870bb89\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "D:\\yunfangit\\YfPlayerKit_Android_DEMO\\YfCloudPlayer\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\yunfan\\.android\\build-cache\\d8d264708a8411f61c2bf0af4d9488d2cb0e48f5\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\yunfangit\\YfPlayerKit_Android_DEMO\\YfCloudPlayer\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\yunfan\\.android\\build-cache\\10cc75ad71c30885b8e9bba8db384c6e2870bb89\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "D:\\yunfangit\\YfPlayerKit_Android_DEMO\\YfCloudPlayer\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\yunfan\\.android\\build-cache\\d8d264708a8411f61c2bf0af4d9488d2cb0e48f5\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\yunfangit\\YfPlayerKit_Android_DEMO\\YfCloudPlayer\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\yunfan\\.android\\build-cache\\d8d264708a8411f61c2bf0af4d9488d2cb0e48f5\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\yunfangit\\YfPlayerKit_Android_DEMO\\YfCloudPlayer\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\yunfan\\.android\\build-cache\\d8d264708a8411f61c2bf0af4d9488d2cb0e48f5\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\yunfangit\\YfPlayerKit_Android_DEMO\\YfCloudPlayer\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\yunfan\\.android\\build-cache\\d8d264708a8411f61c2bf0af4d9488d2cb0e48f5\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\yunfangit\\YfPlayerKit_Android_DEMO\\YfCloudPlayer\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\yunfan\\.android\\build-cache\\d8d264708a8411f61c2bf0af4d9488d2cb0e48f5\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\yunfangit\\YfPlayerKit_Android_DEMO\\YfCloudPlayer\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\yunfan\\.android\\build-cache\\d8d264708a8411f61c2bf0af4d9488d2cb0e48f5\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\yunfangit\\YfPlayerKit_Android_DEMO\\YfCloudPlayer\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\yunfan\\.android\\build-cache\\d8d264708a8411f61c2bf0af4d9488d2cb0e48f5\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\yunfangit\\YfPlayerKit_Android_DEMO\\YfCloudPlayer\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\yunfan\\.android\\build-cache\\10cc75ad71c30885b8e9bba8db384c6e2870bb89\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "D:\\yunfangit\\YfPlayerKit_Android_DEMO\\YfCloudPlayer\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\yunfan\\.android\\build-cache\\d8d264708a8411f61c2bf0af4d9488d2cb0e48f5\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\yunfangit\\YfPlayerKit_Android_DEMO\\YfCloudPlayer\\build\\intermediates\\res\\merged\\debug\\anim\\out_to_left.xml",
+        "source": "D:\\yunfangit\\YfPlayerKit_Android_DEMO\\YfCloudPlayer\\src\\main\\res\\anim\\out_to_left.xml"
+    }
+]
