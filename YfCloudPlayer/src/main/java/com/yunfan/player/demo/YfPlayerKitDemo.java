@@ -769,57 +769,7 @@ public class YfPlayerKitDemo extends BasePlayerDemo implements YfCloudPlayer.OnE
         if (mYfMuxer == null)
             try {
                 mYfMuxer = new YfKitFactory.Factory(context).buildMuxManager(context, false, wid, hei, bit, iFrame, frameRate, bufferSec, netReportInterval,
-                        false, liveUrl, false, Constants.STREAM_TYPE_NORMAL, new YfMuxerProxy.OnMuxerCallback() {
-                            @Override
-                            public void onMuxStart(String url) {
-                                //开始mux
-                            }
-
-                            @Override
-                            public void onMuxFinished(String url, int frameCount) {
-                                //mux结束
-                            }
-
-                            @Override
-                            public void onMuxError(int err, String msg) {
-                                //mux异常
-                            }
-
-                            @Override
-                            public void onMuxSpeed(int speedKb) {
-                                //本地录制时无用
-                            }
-
-                            @Override
-                            public void onMuxSuccess() {
-                                //本地录制时无用
-                            }
-
-                            @Override
-                            public void onBufferOverflow() {
-                                //本地录制时无用
-                            }
-
-                            @Override
-                            public void onBufferMsCallback(int bufferMs) {
-                                //本地录制时无用
-                            }
-
-                            @Override
-                            public void onBufferHandleCallback(int currentBitrate, int bufferMs, int event) {
-                                //本地录制时无用
-                            }
-
-                            @Override
-                            public void needRestartEncoder(int newBitrate, int width, int height) {
-                                //本地录制时无用
-                            }
-
-                            @Override
-                            public void onInfo(int what, int arg1, int arg2, Object obj) {
-                                //本地录制时无用
-                            }
-                        });
+                        false, liveUrl, false, Constants.STREAM_TYPE_NORMAL, null);
             } catch (Exception e) {
                 e.printStackTrace();
             }

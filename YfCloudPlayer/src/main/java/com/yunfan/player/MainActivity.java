@@ -64,7 +64,7 @@ public class MainActivity extends Activity {
     public static final String ACCESS_KEY = "d5ff42e55cf8400cf0ba67cff8e69f425718d702";
     public static final String TOKEN = "1f7cdfe73aa0babd94cda16be6d87ecc39cab7e0";
     private static final String TAG = "Yf_MainActivity";
-    private static final String DEFAULT_PATH = "rtmp://livetemp-rtmp-yf.jstv.com/live/VR_test";
+    private static final String DEFAULT_PATH = "rtmp://rtmp.nongyinong.cn/live/3";
     //    private static final String DEFAULT_PATH = "http://video1k-yf.justbehere.com/o_1a9pakage1f201kvp199l1us417kon.mp4";
     private static final String DEFAULT_PATH_FLV = "http://flv-zk.yftest.yflive.net/live/test";
     //        private static final String DEFAULT_PATH = "rtmp://play.yftest.yflive.net/live/test111";

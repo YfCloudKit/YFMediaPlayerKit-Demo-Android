@@ -40,12 +40,12 @@ dependencies {
 //    compile project(':YfAuthentication')
 //    compile project(':YfVr')
 
-    compile 'com.github.YfCloudKit.YfKitLibrary:FFMpeg-decoder-encoder-https:-SNAPSHOT'
-    compile 'com.github.YfCloudKit.YfKitLibrary:MuxerLib-stream:-SNAPSHOT'
-    compile 'com.github.YfCloudKit.YfKitLibrary:YfAuthentication:-SNAPSHOT'
-    compile 'com.github.YfCloudKit.YfKitLibrary:YfEncoderKit:-SNAPSHOT'
-    compile 'com.github.YfCloudKit.YfKitLibrary:YfMediaPlayer:-SNAPSHOT'
-    compile 'com.github.YfCloudKit.YfKitLibrary:YfVr:-SNAPSHOT'
+    compile 'com.github.YfCloudKit.YfKitLibrary:FFMpeg-decoder-encoder-https:aa0b168ead'
+    compile 'com.github.YfCloudKit.YfKitLibrary:YfMediaPlayer:aa0b168ead'
+    compile 'com.github.YfCloudKit.YfKitLibrary:MuxerLib-stream:v1.0.3'
+    compile 'com.github.YfCloudKit.YfKitLibrary:YfAuthentication:15f7495583'
+    compile 'com.github.YfCloudKit.YfKitLibrary:YfEncoderKit:v1.0.3'
+    compile 'com.github.YfCloudKit.YfKitLibrary:YfVr:v1.0.3'
 
 }
 
