@@ -1,6 +1,6 @@
 * 该项目为**Android端播放器demo**示例代码。该demo集成了播放器的所有功能。
 * [播放sdk文档地址](http://doc.yfcloud.com/index.php?s=/5&page_id=83)
-* [下载安装推流demo](http://www.yfcloud.com/yunfansdkdownload/YFPlayerSDK_Android_demo.apk)
+* [下载安装播放器demo](http://www.yfcloud.com/yunfansdkdownload/YFPlayerSDK_Android_demo.apk)
 
 ![播放器demo](https://i.imgur.com/FNGsd3V.png)
 
