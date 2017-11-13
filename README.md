@@ -1,10 +1,17 @@
+* 该项目为**Android端播放器demo**示例代码。该demo集成了播放器的所有功能。
+* [播放sdk文档地址](http://doc.yfcloud.com/index.php?s=/5&page_id=83)
+* [下载安装推流demo](http://www.yfcloud.com/yunfansdkdownload/YFPlayerSDK_Android_demo.apk)
+
+![播放器demo](https://i.imgur.com/FNGsd3V.png)
+
+--- 
+
+
 # 云帆Android播放器SDK 
 
 ### 简介
 
 ---
-
-
 
 YfPlayerKit是云帆加速推出的Android平台用于播放视频的软件开发工具包（SDK)，为您提供简单、便捷的开发接口，助您在基于 Android 4.1 及以上版本的移动设备上实现视频播放功能。
 
